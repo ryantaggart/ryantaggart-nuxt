@@ -180,11 +180,11 @@ onMounted(() => {
           <p class="text-lg">{{ item.description }}</p>
         </div>
 
-        <div class="relative z-10 flex gap-10 px-4 mt-8">
+        <div class="relative z-10 flex gap-8 px-4 mt-8 flex-wrap">
           <div
             v-for="subtech in item.subtechs"
             :key="subtech.label"
-            class="bg-black bg-opacity-75 rounded flex-1"
+            class="bg-black bg-opacity-75 rounded flex-1 px-4"
           >
             {{ subtech.label }}
           </div>
