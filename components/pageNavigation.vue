@@ -13,10 +13,10 @@ const navigationItems: Ref<NavigationItem[]> = ref([
 <template>
   <nav
     id="mainNav"
-    class="p-4 sticky top-0 z-40 w-full mx-auto flex-none flex bg-blue-dark px-8 py-0 justify-between"
+    class="p-4 sticky top-0 z-40 w-full mx-auto flex bg-blue-dark px-8 py-0 justify-between flex-wrap"
   >
     <NuxtLink href="/">
-      <div class="flex flex-none">
+      <div class="flex">
         <h1
           class="font-serif font-bold text-xl align-middle text-yellow leading-normal cursor-pointer py-4 flex"
         >
@@ -28,12 +28,14 @@ const navigationItems: Ref<NavigationItem[]> = ref([
       </div>
     </NuxtLink>
 
-    <ul class="flex justify-between order-last align-stretch">
+    <ul
+      class="flex justify-between order-last align-stretch flex-wrap gap-2 flex-grow md:flex-grow-0"
+    >
       <li v-for="navItem in navigationItems" :key="navItem.href" class="flex">
         <NuxtLink
           :to="navItem.href"
           :target="navItem.isExternal ? '_blank' : ''"
-          class="px-4 py-4 mx-2 text-white font-serif font-bold text-xl cursor-pointer border-b-4 border-yellow border-opacity-0 hover:border-opacity-100 transition"
+          class="px-4 py-4 text-white font-serif font-bold text-md md:text-xl cursor-pointer border-b-4 border-yellow border-opacity-0 hover:border-opacity-100 transition"
           :class="{
             'border-opacity-100': $route.path === navItem.href,
           }"
