@@ -1,0 +1,88 @@
+---
+slug: 'paleo-foods'
+title: 'What Food is Paleo?'
+type: 'article'
+description: ''
+date: '2013-02-27T00:00:00.000Z'
+redirect_from:
+  - http://ryantaggart.com/is-it-paleo/
+categories: 'Design, Personal, Web Design'
+excerpt: "An illustrated Guide to what is (& isn't) part of a paleo diet."
+heroImage: '/img/blog/paleo-foods/hero-image.jpg'
+coverImage: '/img/blog/paleo-foods/cover-image.jpg'
+customStyle: '/img/blog/paleo-foods/paleo-foods.module.css'
+---
+
+## What is a Paleo diet?
+
+Well lets start with the basic question: What is a paleo diet?
+
+The Paleo diet (or Paleolithic diet) is a nutritional plan based the things that our
+ancestors (aka caveman) ate from around 2.5 million years ago until just about 10,000
+years ago.
+
+The Paleo diet primarily involves eating lean meats, vegitables, buts, seeds, and some
+fruits in order to try and fight agains the diet-related diseases that come along with the
+modern American Diet.
+
+There are a ton of other, more in-depth resources than this one on the topic of Paleo
+diets, such as: [Robb Wolf](http://robbwolf.com/what-is-the-paleo-diet),
+[Practical Paleo Living](http://www.practicalpaleoliving.com/what-is-paleo/),
+[The Paleo Diet](http://thepaleodiet.com/)
+
+## What can you eat
+
+I know this seems kind of complicated, but the idea is pretty basic, just eat things that
+caveman probably would of eaten and stay away from over-processed or chemically enhanced
+foods
+
+Things Like:
+
+::image-grid
+---
+images: [
+  {src: "/img/blog/paleo-foods/egg.svg", alt: "egg"},
+  {src: "/img/blog/paleo-foods/pork.svg", alt: "pork"},
+  {src: "/img/blog/paleo-foods/chicken.svg", alt: "chicken"},
+  {src: "/img/blog/paleo-foods/steak.svg", alt: "steak"},
+  {src: "/img/blog/paleo-foods/fish.svg", alt: "fish"},
+  {src: "/img/blog/paleo-foods/shrimp.svg", alt: "shrimp"},
+  {src: "/img/blog/paleo-foods/clams.svg", alt: "clams"},
+  {src: "/img/blog/paleo-foods/crab.svg", alt: "crab"},
+  {src: "/img/blog/paleo-foods/pistachios.svg", alt: "pistachios"},
+  {src: "/img/blog/paleo-foods/orange.svg", alt: "orange"},
+  {src: "/img/blog/paleo-foods/carrots.svg", alt: "carrots"},
+  {src: "/img/blog/paleo-foods/peas.svg", alt: "peas"},
+]
+---
+::
+
+## What can't you eat
+
+The Paleo diet stays away from manufactured good, overly processed goods, and most of all
+Dairy & grains.
+
+__Things Like__
+
+::image-grid
+---
+images: [
+  { src: "/img/blog/paleo-foods/bread.svg", alt: "bread" },
+  { src: "/img/blog/paleo-foods/butter.svg", alt: "butter" },
+  { src: "/img/blog/paleo-foods/cheese.svg", alt: "cheese" },
+  { src: "/img/blog/paleo-foods/frenchfries.svg", alt: "frenchfries" },
+  { src: "/img/blog/paleo-foods/icecream.svg", alt: "icecream" },
+  { src: "/img/blog/paleo-foods/pasta.svg", alt: "pasta" },
+  { src: "/img/blog/paleo-foods/milk.svg", alt: "milk" },
+  { src: "/img/blog/paleo-foods/corn.svg", alt: "corn" },
+]
+---
+::
+
+## Like this Guide?
+
+Like my illustrated guide to the paleo diet? Feel free to send me something on
+[Twitter](http://www.twitter.com/ryanoceros),
+[Mastodon](http://www.twitter.com/ryanoceros),
+[Dribble](http://www.dribbble.com/ryantaggart) or
+[Send me an email](mailto:me@ryantaggart.com)

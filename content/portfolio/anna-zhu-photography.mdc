@@ -1,0 +1,98 @@
+---
+title: 'Anna Zhu Photography'
+slug: 'anna-zhu-photography'
+type: 'work'
+description: 'A Responsive Photography Website based on a custom WordPress theme.'
+date: '2014-01-21T00:00:00.000Z'
+redirect_from:
+  - http://ryantaggart.com/portfolio/anna-zhu-photography/
+categories: 'Design, Personal'
+excerpt: 'A Responsive Photography Website based on a custom WordPress theme.'
+heroImage: '/img/blog/anna-zhu-photography/hero-image.jpg'
+coverImage: '/img/blog/anna-zhu-photography/cover-image.jpg'
+---
+
+## Anna Zhu Photography
+
+Anna Zhu approached me around mid/late 2013 to help develop a site that she had designed.
+We both had a very similar look to our design styles so the project was right up my alley.
+
+The project consisted of creating a full custom theme and plugin to handle all the
+different customizations that she needed out of it.
+
+## The Technology
+
+I’ve decided that I think it would be useful to just keep track of the technology /
+sources that I end up using in each project to help for my own accord so here it goes:
+
+- CMS: WordPress
+- Languages: jQuery, PHP, HTML, SCSS
+- Sources Used: jQuery, Zurb Foundation, Lettering.js, Bones Start Theme, ILC Tabbed
+  Settings - Page (for Site wide Settings), Compass, Custom Meta Box Class
+- Additional WP Plugins Used: Akismet, Post Types Order, Contact Form 7, BJ-Lazy-Load
+
+## The Three Different Sections
+
+AnnaZhu Photography had 3 Major Types of clients: Corporate, Weddings, & Community so Anna
+wanted to slightly customize pages for each of those target groups.
+
+Since those pages each shared a lot of similar elements (they all had Team lists,
+Portfolio items, etc) I used some categories that spanned the different post types to
+assign elements to a page. This was also helpful in that something could be assigned to
+multiple pages so there wasn’t a need to duplicate.
+
+## The Responsive Aspect
+
+This site needed to be responsive, and yet was going to be chock full of images, with it
+being a photography site and all. To help with initial load time (1.5MB @ approx 3s) I
+used the BJ Lazy Load Plugin to help with only loading some of the more essential items
+initially. I have it set to pull in the images a couple hundred pixels before scroll to
+help alleviate a bit of the jumping issue you can sometimes see with lazy loading images.
+
+<img
+  class="width-100"
+  src="/img/blog/anna-zhu-photography/slider.jpg"
+  alt="Slider"
+/>
+
+Also there are a lot of fun things going on with the slider for some responsive aspects.
+As you can see in the screenshot, on larger screens (above 700px), the images just
+continue to grow naturally (x and y height grow proportionally). On smaller screens and
+mobile, however, we didn’t want the slider to be tiny, especially in portrait view.
+Therefore I added some responsive styles which would keep each image 701px wide by 438px
+high (just slightly shorter than an iPhone in portrait mode) gave it a left value of 50%
+and then pulled it back to the left -350.5px (1/2 of the width). This resulted in a slider
+that was always 438px high, regardless of the window width, and showed the middle of the
+image even as you resized.
+
+## The Overlays
+
+Each of the pages had a work section that linked to some previous work (be it photos or
+videos) and Anna wanted to have an overlay of that content show up instead of linking to
+the original source.
+
+Using Zurb Foundation (which I love) for this project made it super easy to call the
+overlays, the only issue was that some of the pages (e.g. Wedding) have a ton of items
+that I would need modals for, causing a huge page with tons of requests. On top of that,
+AnnaZhu already had a blog with a ton of content on it that she wanted to continue to use
+as a separate entity from this site.
+
+To solve this issue, I created just a blank modal and ajaxed in the necessary content for
+each of the work items that were clicked on. In the admin, it asks for the url of the
+original source. When a user on the front end clicks on a work item, it brings up the
+modal with a loading image & ajaxes in the blog article from her subdomain. For videos,
+the script will realize its a video I use foundations simpler video modal to ajax in a
+video from its source and have it play inside of a modal.
+
+<Image
+  class="width-100"
+  src="/img/blog/anna-zhu-photography/overlay.gif"
+  alt="Slider"
+/>
+
+## Final Thoughts
+
+As with every site, if I were to go back and do it again, I think I would change a couple
+of different things, code some things a bit differently, make it a bit more efficient,
+etc. Despite all that, I am very happy with how the site came out and it was truly a
+pleasure to work with someone as awesome and as good at her work as Anna.
