@@ -12,7 +12,7 @@ const normalizedPosts = computed(() => {
 <!--- Featured work block -->
 <template>
   <div class="container mx-auto px-5">
-    <h3 className="text-5xl font-serif font-bold my-8">Articles</h3>
+    <h3 class="text-5xl font-serif font-bold my-8">Articles</h3>
     <Divider size="large" />
 
     <PostsPreview

@@ -12,7 +12,7 @@ const normalizedPosts = computed(() => {
 <!--- Featured work block -->
 <template>
   <div class="container mx-auto px-5">
-    <h3 className="text-5xl font-serif font-bold my-8">Work</h3>
+    <h3 class="text-5xl font-serif font-bold my-8">Work</h3>
     <Divider size="large" />
     <div class="flex align-stretch gap-8 flex-wrap">
       <div class="flex flex-1" v-for="blogItem in normalizedPosts" :key="blogItem.slug">
