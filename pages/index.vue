@@ -76,7 +76,7 @@ const normalizedBlogItems = computed(() => {
             v-for="blogItem in normalizedBlogItems"
             :key="blogItem.slug"
           >
-            <PostsPreview :post="blogItem" :displayStyle="'list'" />
+            <PostsPreview :post="blogItem" :displayStyle="'list'" location="portfolio" />
           </div>
         </div>
       </div>
