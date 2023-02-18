@@ -28,7 +28,7 @@
           {{ doc.excerpt }}
         </div>
 
-        <ContentRenderer class="markdown" :value="doc" />
+        <ContentRenderer class="markdown pb-12" :value="doc" />
       </div>
     </ContentDoc>
   </main>
