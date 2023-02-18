@@ -1,0 +1,52 @@
+---
+slug: 'nuxt-site'
+title: 'New site, who dis?'
+type: 'article'
+description: ''
+date: '2023-02-16T00:00:00.000Z'
+categories: 'Design, Personal, Nuxt, Vue'
+excerpt:
+  'New site using Vue 3 inside of the Nuxt 3 framework as a new basis for my blog and
+  portfolio.'
+heroImage: '/img/blog/new-site/hero-image.jpg'
+coverImage: '/img/blog/new-site/cover-image.jpg'
+---
+
+## It was time for a new rebuild from the ground up.
+
+It had been a while since I did a full rebuild of my site and it was beginning to
+desparately need it. The last version I had was a react/next build, but I wanted to
+rebuild it using more of the tech that I use on a daily basis to use it as a testing
+ground.
+
+## The code behind it
+
+The code that runs this site is pretty straightforward (thanks to the foundation that
+[Nuxt](https://nuxtjs.org/) gives you out of the box). It is based around some pretty
+simple components, like the dino background on the home or [about page](/about-me/), and
+then content dumped into a `content` directory.
+
+The `content` directory uses [Nuxt Content](https://content.nuxtjs.org/) as the processing
+layer of the [mdc](https://content.nuxtjs.org/guide/writing/mdc/) files that give me some
+control over stylized blog posts as well as bringing in vue components where necessary.
+
+I have the posts seperated into 2 directories:
+
+- blog: holds any generic
+- portfolio: portfolio specific items or items that I think are more related to my daily
+  job, like this post here.
+
+## See the code for yourself
+
+I have made the repo for this code public as a means of illustrationg what I can do + just
+having some public code out there as my day to day stuff which is all private repos and
+code.
+
+[Repo on github](https://github.com/ryantaggart/ryantaggart-nuxt/)
+
+Also feel free to hit me up on
+
+- [Twitter](http://www.twitter.com/ryanoceros)
+- [Mastodon](http://www.twitter.com/ryanoceros)
+- [Dribble](http://www.dribbble.com/ryantaggart)
+- [Send me an email](mailto:me@ryantaggart.com)
