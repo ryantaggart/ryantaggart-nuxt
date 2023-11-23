@@ -35,9 +35,10 @@ const normalizedBlogItems = computed(() => {
       <h1
         class="text-3xl sm:text-4xl lg:text-5xl text-white font-serif font-bold leading-relaxed z-10 text-center relative"
       >
-        Hello, I'm Ryan, a
-        <span class="text-yellow">Full Stack Developer</span> at
-        <a class="text-white" href="https://summitwealth.io" target="_blank"> Summit Wealth </a>
+        <span class='text-7xl'>Hello,</span>
+        <br/> I'm Ryan, a
+        <span class="text-yellow">Full Stack Developer</span> at<br/>
+        <a class="text-job" href="https://summitwealth.io" target="_blank"> Summit Wealth </a>
         .
       </h1>
     </div>
@@ -85,20 +86,21 @@ const normalizedBlogItems = computed(() => {
 </template>
 
 <style lang="scss">
-.text-stova {
-  color: #cf009e;
+.text-job {
+  color: #9ca3af;
   position: relative;
   z-index: 10;
   text-shadow: 2px 2px rgba(50, 52, 72), 2px -2px rgba(50, 52, 72),
-    -2px 2px rgba(50, 52, 72), -2px -2px rgba(50, 52, 72);
-  background-image: -webkit-linear-gradient(45deg, #cf009e, #781260);
+  -2px 2px rgba(50, 52, 72), -2px -2px rgba(50, 52, 72);
+  background-image: -webkit-linear-gradient(45deg, #6b7280, #374151);
   background-size: 100% 4px;
   background-position: 0 93%;
   background-repeat: no-repeat;
   transition-duration: 0.2s;
-}
-.text-stova:hover {
-  background-position: 0 100%;
+
+  &:hover {
+    background-position: 0 100%;
+  }
 }
 
 .waves-container {
