@@ -37,7 +37,7 @@ const normalizedBlogItems = computed(() => {
       >
         Hello, I'm Ryan, a
         <span class="text-yellow">Full Stack Developer</span> at
-        <a class="text-stova" href="https://stova.io" target="_blank"> STOVA </a>
+        <a class="text-white" href="https://summitwealth.io" target="_blank"> Summit Wealth </a>
         .
       </h1>
     </div>
