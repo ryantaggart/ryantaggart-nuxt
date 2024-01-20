@@ -6,7 +6,7 @@ const socialLinks: Ref<NavigationItem[]> = ref([
   {
     isExternal: true,
     label: 'Twitter',
-    href: 'http://www.twitter.com/ryanoceros',
+    href: 'https://twitter.com/ryanoceros',
   },
   {
     isExternal: true,
