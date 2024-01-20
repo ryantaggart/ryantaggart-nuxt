@@ -552,7 +552,7 @@
     read-package-json-fast "^3.0.0"
     which "^4.0.0"
 
-"@nuxt/content@^2.9.0":
+"@nuxt/content@^2.4.3":
   version "2.10.0"
   resolved "https://registry.npmjs.org/@nuxt/content/-/content-2.10.0.tgz"
   integrity sha512-HZ+1RJJc2SZc/FPYvbsME7b8++a2uf6g9JlMm+qUMDjnCWJaF38pbrsmYq2b9whXx/3WjpBmCRkWCJy6bjSP+g==
@@ -5137,7 +5137,7 @@ nuxi@^3.10.0:
   optionalDependencies:
     fsevents "~2.3.3"
 
-nuxt@^3.0.0, nuxt@^3.8.2, nuxt@^3.9.0:
+nuxt@^3.0.0, nuxt@^3.1.1, nuxt@^3.9.0:
   version "3.9.3"
   resolved "https://registry.npmjs.org/nuxt/-/nuxt-3.9.3.tgz"
   integrity sha512-IzBJAJImqCGfspVZzvznrALnFIJ5rPe+VJvY8OiccwRzWT8sEygVRjh3Mc64yWV6P59rz497wp9RBBBhuV2MVA==
